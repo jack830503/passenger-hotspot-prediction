@@ -6,7 +6,7 @@
 預測內湖區在特定時段、各地點的乘車需求。
 
 ## Data
-![image]() <br>
+![image](https://github.com/jack830503/passenger-hotspot-prediction/blob/main/data/zones.png) <br>
 - train_gps_points.csv：乘客上車GPS點位記錄，此資料乃經由篩選計程車錶於內湖區範圍內的啟動記錄而得，並且將計程車錶啟動時間與地點視為乘客上車點，共4,118,812筆資料。
     - Datetime：計程車錶啟動時間 (台北時間 GMT+8:00)
     - Longitude_X：GPS記錄經度 (WGS84座標)
@@ -30,5 +30,7 @@ main.ipynb為主要程式碼。
 
 ## Ranking
 依RMSE(Root-Mean-Square Error)計算分數與排名。
+<br>
 Score : 7.2039617
+<br>
 Rank : 7th/35
